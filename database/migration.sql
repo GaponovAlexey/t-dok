@@ -5,4 +5,4 @@ CREATE TABLE `users`
   PRIMARY KEY (`id`)
 );
 
-INSERT INTO `users` VALUES ('john doe'), ('kava saka');
+INSERT INTO `users`(`name`) VALUES ('john doe'), ('kava saka');
